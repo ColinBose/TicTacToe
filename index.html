@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bose, Colin  Ma, Jackee</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="multiple.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="startup" id="startup" >
+<div class="multiplayer" id="multiplayer" >
+<br />
+<br />
+<br />
+<br />
+<br />
+<h2>Player one, enter your birth year</h2>
+
+<input type="text" id="age1" />
+<br />
+<br />
+<br />
+<h2>Player two, enter your birth year</h2>
+<input type="text" id="age2" />
+<br />
+<br />
+
+<input type="submit" value="Play!" id="submitage" class="button" />
+<br />
+<br />
+<input type="submit" value="Back to Menu" id="back1" class="button"/>
+</div>
+<div class="main" id="mainMenu">
+<h1>Welcome to Colin and Jackee's Tic Tac Toe</h1>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<input type="submit" value="Multi Player" id="multi" class="button" />
+<br />
+<br />
+<input type="submit" value="Single Player" id="single" class="button" />
+<br />
+<br />
+<input type="submit" value="How to Play" id="howto" class="button" />
+<br />
+<br />
+<input type="submit" value="About Us" id="about" class="button" />
+</div>
+<div class="about" id="about2">
+<h2 id="header">Ok</h2>
+<h4 id="info">No</h4>
+<br />
+<br />
+<br />
+<input type="submit" value="Back to Menu" id="back2" class="button"/>
+</div>
+<div id="board" >
+<div id="scoreboard">
+<input type="button" class="button" id="reset" value="Reset" />
+<input type="button" class="button" id="menu" value="Main Menu" />
+</div>
+<div id="flag1">
+<canvas id="canvas1" width="50" height="460"></canvas>
+</div>
+
+
+<div id="boardcontainer">
+<div class="div1" id="board0"></div>
+<div class="div1" id="board1"></div>
+<div class="div1" id="board2"></div>
+<br />
+<div class="div1" id="board3"></div>
+<div class="div1" id="board4"></div>
+<div class="div1" id="board5"></div>
+<br />
+<div class="div1" id="board6"></div>
+<div class="div1" id="board7"></div>
+<div class="div1" id="board8"></div>
+<br />
+</div>
+<div id="flag2">
+<canvas id="canvas2" width="50" height="460"></canvas>
+</div>
+<br />
+<div id="piececontainer">
+<div id="player1" class="player">
+<img id="firstimg" src="z" class="holder" alt="player1img"/>
+</div>
+</div>
+<div id="player2" class="player">
+<img id="secondimg" src="z" class="holder" alt="player2img"/>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
